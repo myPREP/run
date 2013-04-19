@@ -1,5 +1,6 @@
 @echo on
 
-java -Xmx1000m -jar C:\MYPREP\dist\alignement2.jar  > C:\MYPREP\logs\makeTMX_logs.txt
+
+java -Xmx1000m -classpath "C:\MYPREP\dist\alignement2.jar" org.olanto.zahir.run.bitext.AlignBITEXT_classic > C:\MYPREP\logs\makeTMX_logs.txt
 
 @echo on
